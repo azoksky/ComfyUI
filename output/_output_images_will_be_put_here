@@ -1,0 +1,1443 @@
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
+
+LINUX
+apt-get update && apt-get install -y git
+apt-get update
+
+apt-get install -y aria2
+
+aria2c --console-log-level=error -c -x16 -s16 -d '/workspace/ComfyUI/models/controlnet' -o 'union_cntl_2.safetensors' 'https://huggingface.co/ABDALLALSWAITI/FLUX.1-dev-ControlNet-Union-Pro-2.0-fp8/resolve/main/diffusion_pytorch_model.safetensors'
+
+
+python tools/ci_build/build.py --build_dir=build --build --update --parallel --skip_tests --build_wheel --enable_pybind --config=Release --skip_submodule_sync --compile_no_warning_as_error --use_cuda --use_tensorrt --cuda_home="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9" --cudnn_home="C:\Program Files\NVIDIA\CUDNN\v9.10\bin" --tensorrt_home="C:\Program Files\NVIDIA\TensorRT_10.12.0.36\lib"
+
+
+
+PIP DOWNLOAD
+https://download.pytorch.org/whl/nightly/cu129/torch
+
+
+pip install torch==2.9.0.dev20250715 torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --no-cache-dir
+
+curl -OL https://download.pytorch.org/whl/nightly/cu121/torch-2.2.0.dev20231015%2Bcu121-cp310-cp310-linux_x86_64.whl
+
+curl -OL https://github.com/nunchaku-tech/nunchaku/releases/download/v0.3.2dev20250715/nunchaku-0.3.2.dev20250715+torch2.9-cp311-cp311-linux_x86_64.whl 
+
+
+
+DOCKER 
+docker build -t azoksky/py311-cu128:latest .
+docker push azoksky/py311-cu128-trial5:latest
+
+
+SSH
+
+ssh-keygen -t ed25519 -C "azok@live.com" #generate key
+cat ~/.ssh/id_ed25519.pub #linux
+type $env:USERPROFILE\.ssh\id_ed25519.pub #windows
+ssh root@213.173.110.196 -p 16595 -i ~/.ssh/id_ed25519 -L 8188:127.0.0.1:8188
+
